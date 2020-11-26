@@ -9,10 +9,10 @@ weblogicBase=${1:-"/weblogic/wlserver_12.2/wlserver/common/bin"}
 if [ -e ${log_dir} ];then
     mv ${log_dir} ${log_dir}_${DATE}
     sed -n '5,$p' ${passwd} | while read line;do
-        var=$(${webligicBase}/wlst.sh /root/change_passwd.py $line > ${log_dir})
+        var=$(${webligicBase}/wlst.sh /root/change_user_pwd.py $line > ${log_dir})
     done
 else
     sed -n '5,$p' ${passwd} | while read line;do
-    var=$(${webligicBase}/wlst.sh /root/change_passwd.py $line > ${log_dir})
+    var=$(${webligicBase}/wlst.sh /root/change_user_pwd.py $line > ${log_dir})
     done
 fi
