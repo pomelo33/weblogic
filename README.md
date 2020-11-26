@@ -6,8 +6,7 @@ weblogic常用脚本
 - add_t3_filter:添加t3筛选器
 - create:批量创建cluster、ServerName
 - modify_IIOP:批量关闭ServerName的IIOP协议
-- check_runtime.sh:获取ServerName运行时间
-- get_ServerName.py:获取已创建的ServerName
+- get_ServerName:获取已创建的ServerName
 
 
 #### 使用方法
