@@ -20,9 +20,9 @@ weblogic常用脚本
 ### 版本v1
 - 更新日期(20201126)
 更新内容:  
-1.更改用户密码脚本  
-2.批量增加筛选器脚本
-3.批量获取已创建ServerName
-4.批量关闭IIOP协议
-5.批量创建Cluster和ServerName
-6.重启脚本
+1.更改用户密码脚本    
+2.批量增加筛选器脚本    
+3.批量获取已创建ServerName  
+4.批量关闭IIOP协议  
+5.批量创建Cluster和ServerName  
+6.重启脚本  
