@@ -11,7 +11,7 @@ weblogic常用脚本
 
 
 #### 使用方法
-通过weblogic的t3协议进行修改,具体查看各目录对应README.md
+基于weblogic的t3协议方式执行,具体查看各目录对应README.md
 ```
 /weblogic/wlserver_12.2/wlserver/common/bin/wlst.sh ${python_filename} username passwd t3://127.0.0.1:7001
 
