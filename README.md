@@ -1,7 +1,7 @@
 # weblogic
 weblogic常用脚本
 
-### 文件描述
+### 目录/文件描述
 - change_passwd:更改密码
 - add_t3_filter:添加t3筛选器
 - create:批量创建cluster、ServerName
