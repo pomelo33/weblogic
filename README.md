@@ -7,6 +7,7 @@ weblogic常用脚本
 - create:批量创建cluster、ServerName
 - modify_IIOP:批量关闭ServerName的IIOP协议
 - get_ServerName:获取已创建的ServerName
+- restart:重启脚本
 
 
 #### 使用方法
@@ -21,3 +22,7 @@ weblogic常用脚本
 更新内容:  
 1.更改用户密码脚本  
 2.批量增加筛选器脚本
+3.批量获取已创建ServerName
+4.批量关闭IIOP协议
+5.批量创建Cluster和ServerName
+6.重启脚本
